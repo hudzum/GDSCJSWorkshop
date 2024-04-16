@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.todo-container {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+input, button {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: #eee;
+  margin-top: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+ul li.checked { 
+  text-decoration: line-through;
+}
